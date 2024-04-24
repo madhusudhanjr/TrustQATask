@@ -12,7 +12,7 @@ To automate the wallet creation functionality, we will utilize the abstract fram
 4) **Test Framework Design:** Page Object Model (POM) with Page Factory Pattern
 5) **Logging:** Log4j
 6) **Reporting:** Default TestNG report
-7) **Test App:** Android Trust apk
+7) **Test App:** Android Trust app
 8) **Device Tested:** Android Pixel 5 emulator with API level 30
 9) **Platform:** macOS Sonoma (v 14.3.1)
 10) **IDE:** Eclipse
@@ -21,7 +21,7 @@ To automate the wallet creation functionality, we will utilize the abstract fram
 
 **Prerequisites:**
 
-1) Place the APK file under the root folder of the project.
+1) Place the APK file (v8.7.1_release.apk) under the project's root folder.
 2) Start the Appium server with the command `appium server -p 4725 -a 127.0.0.1 -pa /wd/hub`
 3) Ensure the availability of the Pixel 5 API 30 Android emulator or a similar.
    
@@ -32,6 +32,6 @@ To automate the wallet creation functionality, we will utilize the abstract fram
     `platformName` Android
     `deviceName` Pixel_5_API_30
     `automationName` UIAutomator2
-4) These parameters facilitate the installation of the APK on the emulator.
+4) These parameters facilitate the installation and launch of the APK on the emulator.
 5) Optionally, the deviceName can be modified to match locally available Android emulators.
 6) Test results will be generated and stored under the `test-output` folder, accessible via `emailable-report.html`.
