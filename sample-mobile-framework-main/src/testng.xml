@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wallet Tests">
+    <test name="Regression">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Pixel_5_API_30"/>
+    <parameter name="automationName" value="UIAutomator2"/>
+         <classes>
+             <class name="com.trust.tests.WalletTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
